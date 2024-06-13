@@ -10,10 +10,18 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
+<<<<<<< HEAD
   <ThemeProvider theme={{theme}}>
+=======
+  <ThemeProvider theme={theme}>
+>>>>>>> 4bcf432 (deploy)
     <React.StrictMode>
       <CssBaseline />
       <App />
     </React.StrictMode>
   </ThemeProvider>
+<<<<<<< HEAD
 );
+=======
+);
+>>>>>>> 4bcf432 (deploy)
